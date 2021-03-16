@@ -101,7 +101,7 @@ $newVipCustomer->addCreditCard($otherCreditCard);
 $newItem = new Item(1, 'https://images-na.ssl-images-amazon.com/images/I/81DxcHJ9r2L._AC_SL1500_.jpg', 'Scheda Audio', 'Musica', '180.00');
 
 // CLIENTE 3
-$anotherCustomer = new User(3, 'Gino', 'Lollo', 'gino.lollo', 'autunno80', 'via Verdi 11', 'gino@lollo.org', '14/03/97');
+$anotherCustomer = new User(3, 'Gino', 'Lollo', 'gino.lollo', 'autunno80', 'via Verdi 11', 'gino@lollo.org', '14/03/1997');
 // CARTA DI CREDITO 3 (VUOTA)
 $anotherCreditCard = new CreditCard('963485', 0.00);
 
